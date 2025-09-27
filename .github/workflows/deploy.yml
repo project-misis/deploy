@@ -10,10 +10,10 @@ jobs:
     steps:
       - name: Pull updates
         run: git pull
-        working-directory: $HOME/project/deploy
+        working-directory: /home/gh-actor/project/deploy
 
       - name: Up services
         run: docker compose up -d
-        working-directory: $HOME/project/deploy
+        working-directory: /home/gh-actor/project/deploy
 
 
