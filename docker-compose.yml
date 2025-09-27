@@ -1,0 +1,6 @@
+services:
+  app:
+    ports: 
+      - 80:80
+    image: ghcr.io/project-misis/user_service:latest
+
