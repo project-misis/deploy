@@ -1,7 +1,8 @@
 name: Deploy all services
 
 on:
-  push: [main]
+  push:
+    branches: [main]
 
 jobs:
   cd-job:
